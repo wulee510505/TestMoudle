@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/tv_minutes1"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="50sp"
+                  android:gravity="center"
+                  android:text="10"
+                  android:textColor="#FFFFFF"
+                  android:background="#ff0000"
+                  android:textStyle="bold" />
+
+        <TextView android:id="@+id/tv_minutes2"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="50sp"
+                  android:textColor="#FFFFFF"
+                  android:background="#ff0000"
+                  android:gravity="center"
+                  android:text="10"
+                  android:layout_marginLeft="10dp"
+                  android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=":"
+            android:textColor="#FFFFFF"
+            android:background="#ff0000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"/>
+        <TextView android:id="@+id/tv_seconds1"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="50sp"
+                  android:textColor="#FFFFFF"
+                  android:background="#ff0000"
+                  android:gravity="center"
+                  android:text="10"
+                  android:textStyle="bold" />
+        <TextView android:id="@+id/tv_seconds2"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textSize="50sp"
+                  android:textColor="#FFFFFF"
+                  android:background="#ff0000"
+                  android:gravity="center"
+                  android:text="10"
+                  android:layout_marginLeft="10dp"
+                  android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/myTime"
+              android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="30dp"
+        android:textSize="100sp"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+
+
+    <com.wulee.administrator.testmodule.view.CountdownView
+        android:id="@+id/countdownView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:isShowDay="true"
+        app:isShowHour="true"
+        app:isShowMinute="true"
+        app:isShowSecond="true"
+        app:isShowMillisecond="false"
+        app:suffixGravity="center"
+        app:suffixTextColor="#000000"
+        app:suffixTextSize="20sp"
+        app:timeTextColor="#FFFFFF"
+        app:timeTextSize="20sp"
+        app:isHideTimeBackground="false"
+        app:timeBgColor="#FF5000"
+        app:isShowTimeBgDivisionLine="false"/>
+
+    <com.wulee.administrator.testmodule.view.CircleCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:paddingStart="40dp"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cdcdcd"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/edi_search"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="搜索地点"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvCanale"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="取消" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/popup_window_v_alpha"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

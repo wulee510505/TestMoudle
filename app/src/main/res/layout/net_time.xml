@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#464646"
+        android:textSize="18sp"
+        android:text="显示时间"
+        android:padding="5dp"/>
+
+    <com.wulee.administrator.testmodule.view.YearSelectView
+        android:id="@+id/select_year_view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:leftBtnBg="@drawable/btn_pre"
+        custom:rightBtnBg="@drawable/btn_next"
+        android:textSize="20sp"
+        custom:middleTextColor="@color/default_badge_color"
+        custom:middleTextBgColor="@drawable/com_bg_text"
+        custom:middleText="2016"
+        android:layout_below="@id/tv"
+        android:layout_marginTop="10dp">
+
+    </com.wulee.administrator.testmodule.view.YearSelectView>
+
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/com_bg_btn_nor"
+        android:text="测试"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_above="@id/btn_test"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#cddedede"
+        android:layout_above="@+id/checkbox"
+        android:clickable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tv_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@drawable/bg_news_title"
+            android:duplicateParentState="true"
+            android:background="#cdcdcd"
+            android:textSize="30sp"
+            android:text="点击变色"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

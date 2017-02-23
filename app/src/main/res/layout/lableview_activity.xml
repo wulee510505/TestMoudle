@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.wulee.administrator.testmodule.view.LabelView
+        android:id="@+id/labelview1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:lable_text="标签1"
+        app:lable_text_color="#f00"
+        app:lable_text_size="14sp">
+    </com.wulee.administrator.testmodule.view.LabelView>
+
+    <com.wulee.administrator.testmodule.view.LabelView
+        android:id="@+id/labelview2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:lable_text_color="#0f0"
+        app:lable_text="标签2"
+        app:lable_text_size="16sp">
+    </com.wulee.administrator.testmodule.view.LabelView>
+
+
+    <com.wulee.administrator.testmodule.view.LabelView
+        android:id="@+id/labelview3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:lable_text_color="#00f"
+        app:lable_text_bg_color = "@color/default_badge_color"
+        app:lable_text="标签3"
+        app:del_btn_visibility = "GONE"
+        app:lable_text_size="18sp">
+    </com.wulee.administrator.testmodule.view.LabelView>
+
+</LinearLayout>

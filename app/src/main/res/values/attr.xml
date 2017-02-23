@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PowerImageView">
+        <attr name="auto_play" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RichTextView">
+
+    </declare-styleable>
+
+    <declare-styleable name="YearSelectView">
+         <attr name="leftBtnBg" format="color|reference" />
+         <attr name="rightBtnBg" format="color|reference" />
+         <attr name="android:textSize" />
+         <attr name="middleTextColor" format="color|reference" />
+         <attr name="middleTextBgColor" format="color|reference" />
+         <attr name="middleText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PanelView">
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="android:text"/>
+        <attr name="tikeCount" format="integer"/>
+        <attr name="pointerColor" format="color"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AdverItemView">
+        <attr name="gap" format="integer" />
+        <attr name="animDuration" format="integer" />\
+        <attr name="adtextSize" format="dimension|reference" />
+        <attr name="adtextColor" format="color" />
+        <attr name="adverHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="lineSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="timeline_style" >
+        <attr name="marker" format="color|reference"/>
+        <attr name="line" format="color|reference"/>
+        <attr name="marker_size" format="dimension"/>
+        <attr name="line_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CountdownView">
+        <attr name="isHideTimeBackground" format="boolean" />
+        <attr name="isShowTimeBgDivisionLine" format="boolean" />
+        <attr name="timeBgDivisionLineColor" format="color" />
+        <attr name="timeBgDivisionLineSize" format="dimension" />
+        <attr name="timeBgColor" format="color" />
+        <attr name="timeBgSize" format="dimension" />
+        <attr name="timeBgRadius" format="dimension" />
+
+        <attr name="isTimeTextBold" format="boolean" />
+        <attr name="timeTextSize" format="dimension" />
+        <attr name="timeTextColor" format="color" />
+        <attr name="isShowDay" format="boolean" />
+        <attr name="isShowHour" format="boolean" />
+        <attr name="isShowMinute" format="boolean" />
+        <attr name="isShowSecond" format="boolean" />
+        <attr name="isShowMillisecond" format="boolean" />
+
+        <attr name="isSuffixTextBold" format="boolean" />
+        <attr name="suffixTextSize" format="dimension" />
+        <attr name="suffixTextColor" format="color" />
+        <attr name="suffix" format="string" />
+        <attr name="suffixDay" format="string" />
+        <attr name="suffixHour" format="string" />
+        <attr name="suffixMinute" format="string" />
+        <attr name="suffixSecond" format="string" />
+        <attr name="suffixMillisecond" format="string" />
+        <attr name="suffixGravity">
+            <enum name="top" value="0" />
+            <enum name="center" value="1" />
+            <enum name="bottom" value="2" />
+        </attr>
+        <attr name="suffixLRMargin" format="dimension" />
+        <attr name="suffixDayLeftMargin" format="dimension" />
+        <attr name="suffixDayRightMargin" format="dimension" />
+        <attr name="suffixHourLeftMargin" format="dimension" />
+        <attr name="suffixHourRightMargin" format="dimension" />
+        <attr name="suffixMinuteLeftMargin" format="dimension" />
+        <attr name="suffixMinuteRightMargin" format="dimension" />
+        <attr name="suffixSecondLeftMargin" format="dimension" />
+        <attr name="suffixSecondRightMargin" format="dimension" />
+        <attr name="suffixMillisecondLeftMargin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleCheckbox">
+        <attr name="showOuterCircle" format="boolean" />
+
+        <attr name="tickColor" format="string"/>
+        <attr name="outerCircleColor" format="string"/>
+        <attr name="innerCircleColor" format="string"/>
+        <attr name="textColor" format="string"/>
+        <attr name="circleBorderColor" format="string"/>
+
+        <attr name="outerCircleRadius" format="dimension"/>
+        <attr name="innerCircleRadius" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="borderThickness" format="dimension"/>
+        <attr name="tickThickness" format="dimension"/>
+
+        <attr name="textLeftPadding" format="dimension"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="AvatarImageView">
+        <attr name="aiv_TextSizeRatio" format="reference|float" />
+        <attr name="aiv_BoarderColor" format="reference|color" />
+        <attr name="aiv_BoarderWidth" format="reference|dimension" />
+        <attr name="aiv_ShowBoarder" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TagTextView">
+        <attr name="normal_background_color" format="reference"></attr>
+        <attr name="selected_background_color" format="reference"></attr>
+        <attr name="normal_text_color" format="color"></attr>
+        <attr name="selected_text_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RadarView">
+        <attr name="image_width" format="dimension"></attr>
+        <attr name="circle_margin" format="dimension"></attr>
+        <attr name="circle_width" format="dimension"></attr>
+        <attr name="circle_color" format="color"></attr>
+        <attr name="circle_colorx" format="color"></attr>
+        <attr name="circle_colorxx" format="color"></attr>
+        <attr name="circle_colorxxx" format="color"></attr>
+        <attr name="saner_color" format="color"></attr>
+        <attr name="default_image" format="reference"></attr>
+    </declare-styleable>
+
+    <!--corner_color 边角颜色，
+        scanner_color 扫描线颜色
+        possible_result_color 扫描点颜色
+        frame_color 扫描框边线颜色
+        mask_color 模糊区域颜色
+        label_text  框上方提示
+    -->
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="AdCountDownView">
+        <attr name="background_color" format="color" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="ad_text" format="string" />
+        <attr name="ad_text_size" format="dimension" />
+        <attr name="ad_text_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelView">
+        <attr name="lable_text" format="string" />
+        <attr name="lable_text_size" format="dimension" />
+        <attr name="lable_text_color" format="color" />
+        <attr name="lable_text_bg_color" format="color|reference" />
+        <attr name="del_btn_visibility">
+            <enum name="GONE" value="0" />
+            <enum name="VISIBLE" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <!-- 进度百分比文字大小 -->
+    <attr name="percent_text_size" format="dimension" />
+    <!-- 圆形进度条边框大小 -->
+    <attr name="stroke_width" format="dimension" />
+    <!-- 矩形进度条 四周圆角大小 -->
+    <attr name="rect_round" format="dimension" />
+    <!-- 矩形进度条 是空心样式还是实心样式 -->
+    <attr name="isHorizonStroke" format="boolean" />
+    <!-- 进度百分比文字颜色 -->
+    <attr name="percent_text_color" format="color|integer" />
+    <!-- 进度条背景颜色 -->
+    <attr name="progressBarBgColor" format="color|integer" />
+    <!-- 扇形进度条颜色 -->
+    <attr name="sectorColor" format="color|integer" />
+    <!-- 扇形背景颜色 -->
+    <attr name="unSweepColor" format="color|integer" />
+    <!-- 进度颜色 -->
+    <attr name="progressColor" format="color|integer" />
+    <!-- 进度文字是否显示百分号 -->
+    <attr name="showPercentSign" format="boolean"/>
+    <!-- 进度条样式圆形还是矩形 -->
+    <attr name="orientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="circle" value="1"/>
+        <enum name="sector" value="2"/>
+    </attr>
+    <!-- 进度条 -->
+    <declare-styleable name="cbprogressbar">
+        <attr name="percent_text_size"/>
+        <attr name="isHorizonStroke"/>
+        <attr name="percent_text_color"/>
+        <attr name="progressBarBgColor"/>
+        <attr name="progressColor"/>
+        <attr name="sectorColor"/>
+        <attr name="unSweepColor"/>
+        <attr name="orientation"/>
+        <attr name="stroke_width"/>
+        <attr name="rect_round"/>
+        <attr name="showPercentSign"/>
+    </declare-styleable>
+    <!-- 模仿QQ消息粘性控件 -->
+    <declare-styleable name="StickyFlagView">
+        <attr name="flagColor" format="color"/>
+        <attr name="flagTextColor" format="color"/>
+        <attr name="flagTextSize" format="dimension"/>
+        <attr name="flagRadius" format="dimension"/>
+        <attr name="flagDrawable" format="reference"/>
+        <attr name="maxStickRadius" format="dimension"/>
+        <attr name="minStickRadius" format="dimension"/>
+        <attr name="maxDistance" format="dimension" />
+    </declare-styleable>
+</resources>

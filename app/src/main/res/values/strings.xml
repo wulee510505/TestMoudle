@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TestMoudle</string>
+    <string name="app_name_debug">TestMoudleDebug</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="lab_num">1</string>
+    <string name="lab_gif">GIF</string>
+    <string name="lab_video">VIDEO</string>
+
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="enjoy">Enjoy</string>
+
+    <string name="myButtonText">开始倒计时</string>
+    <string name="text_select">设置时间</string>
+
+    <string name="action_search">搜索</string>
+    <string name="action_plus">功能</string>
+    <string name="action_album">我的相册</string>
+    <string name="action_collection">我的收藏</string>
+    <string name="action_card">我的银行卡</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feed">意见反馈</string>
+    <string name="plus_group_chat">发起群聊</string>
+    <string name="plus_add_friend">添加朋友</string>
+    <string name="plus_video_chat">视频聊天</string>
+    <string name="plus_scan">扫一扫</string>
+    <string name="plus_take_photo">拍照分享</string>
+
+    <string name="open">Next</string>
+    <string name="close">Skip</string>
+
+    <string name="encode_qrcode">生成二维码</string>
+    <string name="dencode_qrcode">扫描二维码</string>
+</resources>

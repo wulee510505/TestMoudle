@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+       <TableLayout
+           android:id="@+id/tablayout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:visibility="gone">
+
+           <TableRow >
+               <TextView
+                   android:text="日期"
+                   style="@style/table_text_style" />
+               <TextView
+                   android:text="一"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text="二"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text="三"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text="四"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text="五"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text="六"
+                   style="@style/table_text_style"/>
+           </TableRow>
+
+           <TableRow>
+               <TextView
+                   android:text="上午"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+           </TableRow>
+
+           <TableRow>
+               <TextView
+                   android:text="下午"
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+               <TextView
+                   android:text=""
+                   style="@style/table_text_style"/>
+           </TableRow>
+       </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cdcdcd">
+
+       </TableLayout>
+
+    <com.wulee.administrator.testmodule.view.WhewView
+        android:id="@+id/wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</LinearLayout>

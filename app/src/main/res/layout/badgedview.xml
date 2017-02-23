@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.wulee.administrator.testmodule.view.CircleBadgedView
+            android:id="@+id/badge_circle_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:recbadgeGravity="top|right"
+            app:badgeText="20" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="#0f0"
+                android:src="@mipmap/ic_launcher"/>
+        </com.wulee.administrator.testmodule.view.CircleBadgedView>
+
+        <com.wulee.administrator.testmodule.view.RecBadgedView
+            android:id="@+id/badge_scale_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:recbadgeGravity="bottom|right"
+            app:badgeWidthRatio="4"
+            app:badgeHeightRatio="4"
+            app:badgePadding="10dp"
+            app:badgeCornerRadius="@dimen/fab_margin"
+            app:badgeColor="@color/colorAccent"
+            app:badgeText="@string/lab_gif" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="#0f0"
+                android:src="@mipmap/ic_launcher"/>
+        </com.wulee.administrator.testmodule.view.RecBadgedView>
+
+        <com.wulee.administrator.testmodule.view.RecBadgedView
+            android:id="@+id/badge_regular_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:badgeColor="@color/colorAccent"
+            app:recbadgeGravity="bottom|left"
+            app:badgeText="@string/lab_gif" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="#a0f"
+                android:src="@mipmap/ic_launcher"/>
+        </com.wulee.administrator.testmodule.view.RecBadgedView>
+
+        <com.wulee.administrator.testmodule.view.RecBadgedView
+            android:id="@+id/badge_any_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:recbadgeGravity="top|right"
+            app:badgeText="@string/lab_gif" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="btn"/>
+        </com.wulee.administrator.testmodule.view.RecBadgedView>
+
+        <com.wulee.administrator.testmodule.view.TriBadgedView
+            android:id="@+id/badge_tri_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:badgeText="@string/lab_gif">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:background="#def"
+                android:src="@mipmap/ic_launcher"/>
+        </com.wulee.administrator.testmodule.view.TriBadgedView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:bottom="8.0dip">
+                <shape>
+                    <solid android:color="#ffaaaaaa" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" android:topLeftRadius="1.0dip" android:topRightRadius="1.0dip" />
+
+                    <solid android:color="#ffaaaaaa" />
+
+                    <padding android:bottom="1.0dip" android:left="1.0dip" android:right="1.0dip" android:top="0.0dip" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:bottomLeftRadius="3.0dip" android:bottomRightRadius="3.0dip" android:topLeftRadius="1.0dip" android:topRightRadius="1.0dip" />
+
+                    <solid android:color="@color/color_orange" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:bottom="8.0dip">
+                <shape>
+                    <solid android:color="#ffaaaaaa" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" android:topLeftRadius="1.0dip" android:topRightRadius="1.0dip" />
+
+                    <solid android:color="#ffaaaaaa" />
+
+                    <padding android:bottom="1.0dip" android:left="1.0dip" android:right="1.0dip" android:top="0.0dip" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:bottomLeftRadius="3.0dip" android:bottomRightRadius="3.0dip" android:topLeftRadius="1.0dip" android:topRightRadius="1.0dip" />
+
+                    <solid android:color="@color/default_badge_color" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

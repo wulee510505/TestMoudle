@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_badge_color"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:text="更多demon源码请加QQ:1241394859"/>
+
+        <Button
+            android:id="@+id/btn_camer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="拍照"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_get_server_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="同步时间"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_expandable_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="可收缩展开的TextView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_media_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Media_Player"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_datetime_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Datetime_Picker"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_love"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="TwinkleLove"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_parse_html"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="解析Html"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_applaud_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="+1 《点赞加 1 》动画"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_cakeview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="饼状图"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_powerImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="可以播放gif动画的ImageView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_badgedView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="badgedView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_richTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="丰富的TextView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_zoomImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="点击放大ImageView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_animation_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Animation"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_rollviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="rollviewpager"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_panelview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="panelview"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_clockview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="clockview"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_draw_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="draw_test"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="gallery"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_circleimageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="circleimageview"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_flowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="FlowLayout"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_qq_health_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="QQHealthLayout"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="grid_layout"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_guide_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="快速添加引导页"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="时间轴"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_timecount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="计时"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_stick_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="listviewt头部悬浮"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_sidebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="SideBar"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_contacts_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="通讯录列表"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="ActionBar"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_curtain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="窗帘View"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_dragview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="拖动的View"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_drawtextonpath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="draw_text_onpath"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="仿QQsearch"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_coordinator_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="协调布局"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_xml_to_json"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="XmlToJson"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_draw_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="心电图"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_radar_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="RadarView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_zxing_qr_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="ZXing QRCode"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="自定义数字键盘"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_tabfragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="TabTragment"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_imageview_auto_zoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="自动缩放的ImageView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_ad_count_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="广告倒计时View"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_num_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="EditText计数"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_zoom_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="手势缩放Imageview"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_lableview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="标签LableView"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/di_zhen_bo_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="地震波"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/jin_du_tiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="进度条..."
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/goo_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="仿QQ粘性控件"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

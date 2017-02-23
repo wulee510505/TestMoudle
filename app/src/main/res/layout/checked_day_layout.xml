@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:background="#cdcdcd"
+              android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv1"
+            style="@style/checked_text_style"
+            android:text="1"/>
+
+        <View
+            android:id="@+id/line1"
+            style="@style/checked_text_line_style"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv2"
+            style="@style/checked_text_style"
+            android:text="2"/>
+
+        <View
+            android:id="@+id/line2"
+            style="@style/checked_text_line_style"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_3"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv3"
+            style="@style/checked_text_style"
+            android:text="3"/>
+
+        <View
+            android:id="@+id/line3"
+            android:visibility="invisible"
+            style="@style/checked_text_line_style"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_4"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv4"
+            style="@style/checked_text_style"
+            android:text="4"/>
+
+        <View
+            android:id="@+id/line4"
+            android:visibility="invisible"
+            style="@style/checked_text_line_style"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_5"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv5"
+            style="@style/checked_text_style"
+            android:text="5"/>
+
+        <View
+            android:id="@+id/line5"
+            android:visibility="invisible"
+            style="@style/checked_text_line_style"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_6"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv6"
+            style="@style/checked_text_style"
+            android:text="6"/>
+
+        <View
+            android:id="@+id/line6"
+            android:visibility="invisible"
+            style="@style/checked_text_line_style"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_7"
+        style="@style/checked_layout_style">
+
+        <TextView
+            android:id="@+id/tv7"
+            style="@style/checked_text_style"
+            android:text="7"/>
+
+        <View
+            android:id="@+id/line7"
+            android:visibility="invisible"
+            style="@style/checked_text_line_style"/>
+    </LinearLayout>
+</LinearLayout>
