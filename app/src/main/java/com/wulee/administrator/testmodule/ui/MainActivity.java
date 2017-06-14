@@ -308,6 +308,11 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, GooViewActivity.class));
             }
         });
+        findViewById(R.id.headerview).setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, HeaderViewActivity.class));
+            }
+        });
 
     }
 

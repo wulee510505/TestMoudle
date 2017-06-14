@@ -52,6 +52,7 @@ public class AdCountdownActiviy  extends AppCompatActivity{
 
             @Override
             public void onFinishCount() {
+                //Text2Speech.speech(AdCountdownActiviy.this,"开始计时",false);
                 Toast.makeText(AdCountdownActiviy.this,"计时结束",Toast.LENGTH_SHORT).show();
                 AdCountdownActiviy.this.finish();
             }

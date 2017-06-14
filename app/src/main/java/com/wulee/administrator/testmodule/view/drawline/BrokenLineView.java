@@ -106,7 +106,7 @@ public class BrokenLineView extends View {
         //X轴上的刻度与文字
         for (int j = 0; j * xScale< xLength; j++) {
             canvas.drawLine(xPoint+ j*xScale,  yPoint, xPoint + j*xScale, yPoint-5, paint);  //刻度
-            canvas.drawText(xLabel[j], xPoint+j*xScale, yPoint+20, paint);//X轴文字
+            //canvas.drawText(xLabel[j], xPoint+j*xScale, yPoint+20, paint);//X轴文字
         }
 
         //如果集合中有数据

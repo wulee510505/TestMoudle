@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="200dp"
         android:orientation="vertical"
         android:id="@+id/ll_container">
 
@@ -21,6 +22,11 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/shape"
-        android:layout_alignParentBottom="true"
         android:layout_margin="20dp"/>
-</RelativeLayout>
+
+    <com.wulee.administrator.testmodule.view.DiamondView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"/>
+
+</LinearLayout>

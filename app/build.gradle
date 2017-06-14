@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 25
     buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.wulee.administrator.mywidget"
-        minSdkVersion 15
-        targetSdkVersion 23
+        minSdkVersion 21
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
@@ -60,14 +60,14 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
-    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:design:25.3.1'
     compile 'org.terrameta:plasma:1.2.3'
     compile files('libs/jsoup-1.8.3.jar')
     compile 'jp.wasabeef:glide-transformations:1.0.6'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.jude:rollviewpager:1.2.9'
-    compile 'com.android.support:recyclerview-v7:23.3.0'
-    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
     compile 'io.reactivex:rxandroid:1.2.0'
     compile 'io.reactivex:rxjava:1.1.5'
     compile files('libs/AMap_3DMap_V3.3.3_20160726.jar')
@@ -75,4 +75,5 @@ dependencies {
     compile files('libs/gson-2.2.2.jar')
     compile 'com.jakewharton:butterknife:8.4.0'
     compile 'com.google.zxing:core:3.3.0'
+    //compile 'com.github.wulee510505:Text2Speach:1.0.0'
 }

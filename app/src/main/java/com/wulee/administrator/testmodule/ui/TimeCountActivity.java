@@ -10,7 +10,6 @@ import android.view.Window;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
 
 import com.wulee.administrator.testmodule.R;
 
@@ -21,7 +20,6 @@ public class TimeCountActivity extends Activity {
 	Button startButton;
 	EditText minuteText;
 	EditText secondText;
-	RelativeLayout rlBottom;
 	int minute;
 	int second;
 	
@@ -31,14 +29,13 @@ public class TimeCountActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.time_count_main);
 
-		rlBottom = (RelativeLayout) findViewById(R.id.rl_bottom_btn_start);
 		startButton = (Button) findViewById(R.id.button_start);
 		minuteText = (EditText)findViewById(R.id.minute);
 		secondText = (EditText)findViewById(R.id.second);
 
 		minuteText.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
 
-		rlBottom.setOnClickListener(new OnClickListener() {
+		startButton.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
