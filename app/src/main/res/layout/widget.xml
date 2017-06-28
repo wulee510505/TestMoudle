@@ -495,6 +495,24 @@
             android:textColor="#464646"
             android:textSize="16sp" />
 
+        <Button
+            android:id="@+id/surfaceview_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="surfaceview"
+            android:textColor="#464646"
+            android:textSize="16sp" />
 
+        <Button
+            android:id="@+id/gps_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="gps_location"
+            android:textColor="#464646"
+            android:textSize="16sp" />
     </LinearLayout>
 </ScrollView>

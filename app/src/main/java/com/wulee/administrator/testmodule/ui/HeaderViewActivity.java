@@ -75,4 +75,5 @@ public class HeaderViewActivity extends AppCompatActivity {
 
         diamondImageView.setImageBitmap(bm);
     }
+
 }
