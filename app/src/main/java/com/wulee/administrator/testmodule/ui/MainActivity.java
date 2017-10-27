@@ -323,6 +323,11 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, GpsLocationActivity.class));
             }
         });
+        findViewById(R.id.faceview).setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, FaceViewActivity.class));
+            }
+        });
     }
 
 }
